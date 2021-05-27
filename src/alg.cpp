@@ -22,6 +22,7 @@ Char += FromAToa;
 Word += Char;
 } else if (Word != "") {
 TREE.add(Word);
+Word = "";
 }
 }
 file.close();
