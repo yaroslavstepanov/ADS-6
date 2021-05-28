@@ -8,8 +8,8 @@
 BST<std::string> makeTree(const char* filename) {
 BST<std::string>TREE;
 char FromAToa = 'a' - 'A';
-std::string Word = "";
-std::ifstream file(filename);
+    std::string Word = "";
+    std::ifstream file(filename);
 if (!file) {
 std::cout << "File error!" << std::endl;
 return TREE;
